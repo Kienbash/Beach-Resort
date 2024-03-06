@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hayahay Beach Reasort - Reservations</title>
+  <link rel="stylesheet" href="..\styles\styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hayahay Beach Reasort</h1>
+    <nav>
+      <button><a href="../index.html">Home</a></button>
+      <button><a href="../pages/cottages.html">Cottages</a></button>
+      <button><a href="../pages/room.html">Room Rates</a></button>
+      <button><a href="../pages/reservations.html">Reservations</a></button>
+      <button><a href="../pages/about.html">About Us</a></button>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Reservation</h1>
+
+    <form action="your_form_processing_script.php" method="post" id="reservation-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="check-in">Check-In Date:</label>
+        <input type="date" name="check-in" id="check-in" required>
+      </div>
+
+      <div class="form-group">
+        <label for="check-out">Check-Out Date:</label>
+        <input type="date" name="check-out" id="check-out" required>
+      </div>
+
+      <div class="form-group">
+        <label for="guests">Number of Guests:</label>
+        <input type="number" name="guests" id="guests" min="1" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cottage">Cottage Selection:</label>
+        <select name="cottage" id="cottage" required>
+          <option value="">[Select a Cottage]</option>
+          </select>
+      </div>
+
+      <div class="form-group">
+        <label for="special-requests">Special Requests (Optional):</label>
+        <textarea name="special-requests" id="special-requests" rows="5"></textarea>
+      </div>
+
+      <button type="submit">Submit Reservation</button>
+    </form>
+
+  </main>
+
+
+  <footer>
+    <p>&copy;Hayahay Beach Reasort 2019</p>
+  </footer>
+
+</body>
+</html>

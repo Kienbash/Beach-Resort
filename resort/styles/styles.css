@@ -1,0 +1,245 @@
+
+body {
+    font-family: Arial, sans-serif;
+  
+    background: linear-gradient(144deg, #35fafd,#2a7dd5,#d6b7e6);
+    margin: 0;
+    padding: 0;
+
+  }
+  h1{
+    padding:5px;
+  }
+
+ h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+      width: 981px;
+      height: 782px;
+      object-fit: cover;
+  }
+  nav{
+    padding-left: 60em;
+  }
+  a {
+    text-decoration: none;
+    color: #b4a8a8;
+    margin:auto;
+  }
+
+  button {
+     color:#35fafd;
+     padding: 6px 15px 10px 15px;
+     border-radius:20px;
+     font-weight: 600;
+     border-color: #ffffff;
+     border-width: 0px;
+     }
+
+     button :hover{
+      background-color: antiquewhite; 
+      color: #ffffff;
+     }
+   
+  header {
+    padding: 10px 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero{
+    background-position: center;
+    padding-left: 3%;
+    width: 50%;
+    height: 50%;
+    
+    }
+    
+  .inre23 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .img2 {
+    width: 781px;
+    height: 770px;
+    object-fit: cover;
+    background-position: center;
+  }
+  .img3 {
+    width: 781px;
+    height: 770px;
+    padding-left: 47%;
+  }
+
+  .rates {
+    margin: 20px auto;
+    width: 600px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .ab {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .testimonials {
+    margin-top: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+.bckg {
+  background-repeat: repeat;
+}
+.card {
+  width: 590px;
+  height: 700px;
+  background: rgb(255, 255, 255);
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #2e4cd0c3;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(16, 93, 161) 3px solid;
+ }
+ 
+ .card:hover {
+  border: #006fff 0.2em solid;
+ }
+ .card {
+  float: right;
+position: absolute;
+top: 20%;
+right: 1%;
+ }
+
+ .card21 {
+  width: 590px;
+  height: 300px;
+  background: rgb(236, 238, 239);
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #e2e2e6c3;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(16, 93, 161) 3px solid;
+ }
+ .card:hover {
+  border: #006fff 0.2em solid;
+ }
+
+ .card21 {
+  float: right;
+position:absolute;
+top: 153%;
+right: 52%;
+ }
+ .card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ .card-content h3{
+  font-size: 28px;
+  margin-bottom: 8px;
+  text-align: center;
+    margin: 10px;
+    font-size:200%;
+ }
+ .card23 {
+  width: 590px;
+  height: 300px;
+  background: rgb(255, 255, 255);
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #2e4cd0c3;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(16, 93, 161) 3px solid;
+ }
+ 
+ .card:hover {
+  border: #006fff 0.2em solid;
+ }
+ .card23 {
+  float: right;
+position: absolute;
+top: 30%;
+right: 10%;
+ }
+
+
+
+ main {
+  padding: 20px;
+}
+
+#reservation-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 600px; 
+}
+
+.form-group {
+  margin-bottom: 10px;
+  width: 48%; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 100px;
+ }
+
+
+button[type="submit"] {
+  margin-top: 10px;
+  width: 100%; 
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0067cc;
+}
